@@ -1,0 +1,4 @@
+teseCases\CreateResourceFlowTestPage.class
+teseCases\DashboardPageTest.class
+teseCases\LoginPageTest.class
+teseCases\CreateCalloutTestPage.class

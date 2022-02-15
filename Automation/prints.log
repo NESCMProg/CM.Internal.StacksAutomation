@@ -1,0 +1,50 @@
+2022-02-11 09:25:18,061 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:25:37,494 INFO [Log] Browser is closed 
+2022-02-11 09:25:44,008 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:26:04,045 INFO [Log] Successfully created a Callout with title name: null 
+2022-02-11 09:26:04,045 INFO [Log] title1 from Excel:Excel Callouts-2 
+2022-02-11 09:26:04,045 INFO [Log] subtitle1 from Excel:Subtitle-2 
+2022-02-11 09:26:04,045 INFO [Log] description from Excel:callouts description-2 
+2022-02-11 09:26:04,046 ERROR[Log] title1 from Excel is not driven 
+2022-02-11 09:26:04,046 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-11 09:26:04,046 ERROR[Log] description from Excel is not driven 
+2022-02-11 09:26:04,349 INFO [Log] Browser is closed 
+2022-02-11 09:26:10,962 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:26:30,020 INFO [Log] Browser is closed 
+2022-02-11 09:26:36,783 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:26:56,247 INFO [Log] Successfully created a Callout with title name: null 
+2022-02-11 09:26:56,248 INFO [Log] title1 from Excel:Excel Callouts-4 
+2022-02-11 09:26:56,248 INFO [Log] subtitle1 from Excel:Subtitle-4 
+2022-02-11 09:26:56,248 INFO [Log] description from Excel:callouts description-4 
+2022-02-11 09:26:56,248 ERROR[Log] title1 from Excel is not driven 
+2022-02-11 09:26:56,248 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-11 09:26:56,248 ERROR[Log] description from Excel is not driven 
+2022-02-11 09:26:56,510 INFO [Log] Browser is closed 
+2022-02-11 09:55:26,372 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:55:46,227 INFO [Log] Browser is closed 
+2022-02-11 09:55:52,929 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:56:12,055 INFO [Log] Browser is closed 
+2022-02-11 09:56:18,696 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:56:40,062 INFO [Log] Successfully created a Callout with title name: Callouts Excel Callouts-3 has been created. 
+2022-02-11 09:56:40,063 INFO [Log] title1 from Excel:Excel Callouts-3 
+2022-02-11 09:56:40,063 INFO [Log] subtitle1 from Excel:Subtitle-3 
+2022-02-11 09:56:40,064 INFO [Log] description from Excel:callouts description-3 
+2022-02-11 09:56:40,064 ERROR[Log] title1 from Excel is not driven 
+2022-02-11 09:56:40,064 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-11 09:56:40,064 ERROR[Log] description from Excel is not driven 
+2022-02-11 09:56:40,371 INFO [Log] Browser is closed 
+2022-02-11 09:56:47,194 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 09:57:09,136 INFO [Log] Successfully created a Callout with title name: Callouts Excel Callouts-4 has been created. 
+2022-02-11 09:57:09,136 INFO [Log] title1 from Excel:Excel Callouts-4 
+2022-02-11 09:57:09,136 INFO [Log] subtitle1 from Excel:Subtitle-4 
+2022-02-11 09:57:09,136 INFO [Log] description from Excel:callouts description-4 
+2022-02-11 09:57:09,136 ERROR[Log] title1 from Excel is not driven 
+2022-02-11 09:57:09,136 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-11 09:57:09,136 ERROR[Log] description from Excel is not driven 
+2022-02-11 09:57:09,429 INFO [Log] Browser is closed 
+2022-02-11 10:42:39,306 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 10:43:28,262 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 10:45:54,610 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 10:51:34,231 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 10:52:57,749 INFO [Log] driver is initialized for Callouts Page 
+2022-02-11 10:56:04,286 INFO [Log] driver is initialized for Callouts Page 

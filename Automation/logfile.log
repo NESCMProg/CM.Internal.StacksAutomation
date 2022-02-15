@@ -1,0 +1,198 @@
+2022-02-10 13:46:30,225 INFO [Log] driver is initialized 
+2022-02-10 13:46:33,353 INFO [Log] username and password taken from excelsheet 
+2022-02-10 13:46:33,353 ERROR[Log] blank username and password taken from excelsheet 
+2022-02-10 13:46:41,889 INFO [Log] driver is initialized 
+2022-02-10 13:49:41,614 INFO [Log] driver is initialized 
+2022-02-10 13:49:44,507 INFO [Log] username from Excel:NESadmin 
+2022-02-10 13:49:44,507 INFO [Log] username from Excel:NES2021! 
+2022-02-10 13:49:44,508 ERROR[Log] blank username and password taken from excelsheet 
+2022-02-10 13:49:52,574 INFO [Log] driver is initialized 
+2022-02-10 14:14:49,505 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 14:15:09,025 INFO [Log] Browser is closed 
+2022-02-10 14:15:09,025 ERROR[Log] Browser is not Closed 
+2022-02-10 14:15:16,791 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 14:15:37,578 INFO [Log] Browser is closed 
+2022-02-10 14:15:37,578 ERROR[Log] Browser is not Closed 
+2022-02-10 14:15:45,245 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 14:16:04,515 INFO [Log] title1 from Excel:ExcelCallout3 
+2022-02-10 14:16:04,516 INFO [Log] subtitle1 from Excel:subtitle3 
+2022-02-10 14:16:04,516 INFO [Log] description from Excel:Description3 
+2022-02-10 14:16:04,516 ERROR[Log] title1 from Excel is not driven 
+2022-02-10 14:16:04,516 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-10 14:16:04,516 ERROR[Log] description from Excel is not driven 
+2022-02-10 14:16:04,943 INFO [Log] Browser is closed 
+2022-02-10 14:16:04,943 ERROR[Log] Browser is not Closed 
+2022-02-10 14:16:12,901 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 14:16:32,283 INFO [Log] title1 from Excel:ExcelCallout4 
+2022-02-10 14:16:32,283 INFO [Log] subtitle1 from Excel:subtitle4 
+2022-02-10 14:16:32,283 INFO [Log] description from Excel:Description4 
+2022-02-10 14:16:32,284 ERROR[Log] title1 from Excel is not driven 
+2022-02-10 14:16:32,284 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-10 14:16:32,284 ERROR[Log] description from Excel is not driven 
+2022-02-10 14:16:32,663 INFO [Log] Browser is closed 
+2022-02-10 14:16:32,663 ERROR[Log] Browser is not Closed 
+2022-02-10 14:22:32,559 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:22:50,676 INFO [Log] title1 from Excel: Resource Title1 
+2022-02-10 14:22:50,676 INFO [Log] title1 from Excel: 978-3-16-148410-0 
+2022-02-10 14:22:50,676 INFO [Log] title1 from Excel: 3.600029145E9 
+2022-02-10 14:22:50,676 INFO [Log] title1 from Excel: Sub-Title1 
+2022-02-10 14:22:50,676 INFO [Log] title1 from Excel: Jonnes 
+2022-02-10 14:22:50,681 ERROR[Log] Browser is not Closed 
+2022-02-10 14:22:51,925 INFO [Log] Browser is closed 
+2022-02-10 14:23:00,237 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:23:17,755 ERROR[Log] Browser is not Closed 
+2022-02-10 14:23:18,722 INFO [Log] Browser is closed 
+2022-02-10 14:23:27,443 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:23:46,217 ERROR[Log] Browser is not Closed 
+2022-02-10 14:23:47,385 INFO [Log] Browser is closed 
+2022-02-10 14:28:19,178 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:28:37,646 INFO [Log] title1 from Excel: Resource Title1 
+2022-02-10 14:28:37,646 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-0 
+2022-02-10 14:28:37,646 INFO [Log] UPC value from Excel: 3.600029145E9 
+2022-02-10 14:28:37,646 INFO [Log] subTitle value from Excel: Sub-Title1 
+2022-02-10 14:28:37,646 INFO [Log] author value from Excel: Jonnes 
+2022-02-10 14:28:37,652 INFO [Log] Browser is not Closed 
+2022-02-10 14:28:38,329 INFO [Log] Browser is closed 
+2022-02-10 14:28:38,329 INFO [Log] Browser is closed 
+2022-02-10 14:28:45,581 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:29:03,255 INFO [Log] title1 from Excel: Resource Title2 
+2022-02-10 14:29:03,255 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-1 
+2022-02-10 14:29:03,255 INFO [Log] UPC value from Excel: 3.600029146E9 
+2022-02-10 14:29:03,255 INFO [Log] subTitle value from Excel: Sub-Title2 
+2022-02-10 14:29:03,255 INFO [Log] author value from Excel: Martin 
+2022-02-10 14:29:03,257 INFO [Log] Browser is not Closed 
+2022-02-10 14:29:04,465 INFO [Log] Browser is closed 
+2022-02-10 14:29:04,466 INFO [Log] Browser is closed 
+2022-02-10 14:29:12,291 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:29:29,021 INFO [Log] title1 from Excel: Resource Title3 
+2022-02-10 14:29:29,021 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-2 
+2022-02-10 14:29:29,021 INFO [Log] UPC value from Excel: 3.600029147E9 
+2022-02-10 14:29:29,021 INFO [Log] subTitle value from Excel: Sub-Title3 
+2022-02-10 14:29:29,021 INFO [Log] author value from Excel: Amar 
+2022-02-10 14:29:29,023 INFO [Log] Browser is not Closed 
+2022-02-10 14:29:30,080 INFO [Log] Browser is closed 
+2022-02-10 14:29:30,080 INFO [Log] Browser is closed 
+2022-02-10 14:34:21,698 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:34:40,446 INFO [Log] Browser is not Closed 
+2022-02-10 14:34:40,896 INFO [Log] Browser is closed after teardown 
+2022-02-10 14:34:40,896 ERROR[Log] Browser is closed after teardown 
+2022-02-10 14:34:48,765 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:35:06,754 INFO [Log] title1 from Excel: Resource Title2 
+2022-02-10 14:35:06,755 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-1 
+2022-02-10 14:35:06,755 INFO [Log] UPC value from Excel: 3.600029146E9 
+2022-02-10 14:35:06,755 INFO [Log] subTitle value from Excel: Sub-Title2 
+2022-02-10 14:35:06,755 INFO [Log] author value from Excel: Martin 
+2022-02-10 14:35:06,756 INFO [Log] Browser is not Closed 
+2022-02-10 14:35:07,357 INFO [Log] Browser is closed after teardown 
+2022-02-10 14:35:07,357 ERROR[Log] Browser is closed after teardown 
+2022-02-10 14:35:15,179 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:35:33,770 INFO [Log] Browser is not Closed 
+2022-02-10 14:35:34,263 INFO [Log] Browser is closed after teardown 
+2022-02-10 14:35:34,263 ERROR[Log] Browser is closed after teardown 
+2022-02-10 14:56:48,694 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:57:05,366 INFO [Log] title1 from Excel: Resource Title1 
+2022-02-10 14:57:05,366 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-0 
+2022-02-10 14:57:05,366 INFO [Log] UPC value from Excel: 3.600029145E9 
+2022-02-10 14:57:05,366 INFO [Log] subTitle value from Excel: Sub-Title1 
+2022-02-10 14:57:05,366 INFO [Log] author value from Excel: Jonnes 
+2022-02-10 14:57:05,371 INFO [Log] Browser is not Closed 
+2022-02-10 14:57:05,674 INFO [Log] Browser is closed after teardown 
+2022-02-10 14:57:05,675 ERROR[Log] Browser is closed after teardown 
+2022-02-10 14:57:12,246 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:57:29,472 INFO [Log] title1 from Excel: Resource Title2 
+2022-02-10 14:57:29,472 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-1 
+2022-02-10 14:57:29,472 INFO [Log] UPC value from Excel: 3.600029146E9 
+2022-02-10 14:57:29,472 INFO [Log] subTitle value from Excel: Sub-Title2 
+2022-02-10 14:57:29,472 INFO [Log] author value from Excel: Martin 
+2022-02-10 14:57:29,473 INFO [Log] Browser is not Closed 
+2022-02-10 14:57:29,775 INFO [Log] Browser is closed after teardown 
+2022-02-10 14:57:29,775 ERROR[Log] Browser is closed after teardown 
+2022-02-10 14:57:36,503 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 14:57:53,394 INFO [Log] title1 from Excel: Resource Title3 
+2022-02-10 14:57:53,394 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-2 
+2022-02-10 14:57:53,395 INFO [Log] UPC value from Excel: 3.600029147E9 
+2022-02-10 14:57:53,395 INFO [Log] subTitle value from Excel: Sub-Title3 
+2022-02-10 14:57:53,395 INFO [Log] author value from Excel: Amar 
+2022-02-10 14:57:53,397 INFO [Log] Browser is not Closed 
+2022-02-10 14:57:53,646 INFO [Log] Browser is closed after teardown 
+2022-02-10 14:57:53,647 ERROR[Log] Browser is closed after teardown 
+2022-02-10 15:43:40,925 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-10 15:43:48,490 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-10 16:02:18,496 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 16:02:36,821 INFO [Log] Browser is closed 
+2022-02-10 16:02:43,874 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 16:03:02,401 INFO [Log] title1 from Excel:ExcelCallout2 
+2022-02-10 16:03:02,402 INFO [Log] subtitle1 from Excel:subtitle2 
+2022-02-10 16:03:02,402 INFO [Log] description from Excel:Description2 
+2022-02-10 16:03:02,402 ERROR[Log] title1 from Excel is not driven 
+2022-02-10 16:03:02,402 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-10 16:03:02,402 ERROR[Log] description from Excel is not driven 
+2022-02-10 16:03:02,716 INFO [Log] Browser is closed 
+2022-02-10 16:03:09,491 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 16:03:27,684 INFO [Log] title1 from Excel:ExcelCallout3 
+2022-02-10 16:03:27,685 INFO [Log] subtitle1 from Excel:subtitle3 
+2022-02-10 16:03:27,685 INFO [Log] description from Excel:Description3 
+2022-02-10 16:03:27,685 ERROR[Log] title1 from Excel is not driven 
+2022-02-10 16:03:27,685 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-10 16:03:27,685 ERROR[Log] description from Excel is not driven 
+2022-02-10 16:03:27,988 INFO [Log] Browser is closed 
+2022-02-10 16:03:35,432 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 16:03:53,643 INFO [Log] title1 from Excel:ExcelCallout4 
+2022-02-10 16:03:53,643 INFO [Log] subtitle1 from Excel:subtitle4 
+2022-02-10 16:03:53,643 INFO [Log] description from Excel:Description4 
+2022-02-10 16:03:53,643 ERROR[Log] title1 from Excel is not driven 
+2022-02-10 16:03:53,643 ERROR[Log] subtitle1 from Excel is not driven 
+2022-02-10 16:03:53,643 ERROR[Log] description from Excel is not driven 
+2022-02-10 16:03:53,958 INFO [Log] Browser is closed 
+2022-02-10 16:04:00,603 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-10 16:04:07,704 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-10 16:04:10,387 INFO [Log] username from Excel: NESadmin 
+2022-02-10 16:04:10,387 INFO [Log] password from Excel: NES2021! 
+2022-02-10 16:04:10,387 ERROR[Log] blank username and password taken from excelsheet 
+2022-02-10 16:04:17,548 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 16:04:33,506 INFO [Log] title1 from Excel: Resource Title1 
+2022-02-10 16:04:33,506 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-0 
+2022-02-10 16:04:33,506 INFO [Log] UPC value from Excel: 3.600029145E9 
+2022-02-10 16:04:33,506 INFO [Log] subTitle value from Excel: Sub-Title1 
+2022-02-10 16:04:33,506 INFO [Log] author value from Excel: Jonnes 
+2022-02-10 16:04:33,507 INFO [Log] Browser is not Closed 
+2022-02-10 16:04:33,828 INFO [Log] Browser is closed 
+2022-02-10 16:04:40,560 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 16:04:57,513 INFO [Log] title1 from Excel: Resource Title2 
+2022-02-10 16:04:57,513 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-1 
+2022-02-10 16:04:57,514 INFO [Log] UPC value from Excel: 3.600029146E9 
+2022-02-10 16:04:57,514 INFO [Log] subTitle value from Excel: Sub-Title2 
+2022-02-10 16:04:57,514 INFO [Log] author value from Excel: Martin 
+2022-02-10 16:04:57,517 INFO [Log] Browser is not Closed 
+2022-02-10 16:04:57,823 INFO [Log] Browser is closed 
+2022-02-10 16:05:05,019 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 16:05:21,878 INFO [Log] title1 from Excel: Resource Title3 
+2022-02-10 16:05:21,879 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-2 
+2022-02-10 16:05:21,879 INFO [Log] UPC value from Excel: 3.600029147E9 
+2022-02-10 16:05:21,879 INFO [Log] subTitle value from Excel: Sub-Title3 
+2022-02-10 16:05:21,879 INFO [Log] author value from Excel: Amar 
+2022-02-10 16:05:21,880 INFO [Log] Browser is not Closed 
+2022-02-10 16:05:22,186 INFO [Log] Browser is closed 
+2022-02-10 21:30:22,313 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 21:30:42,320 INFO [Log] Browser is closed 
+2022-02-10 21:30:51,286 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 21:31:11,579 INFO [Log] Browser is closed 
+2022-02-10 21:31:19,948 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 21:31:41,590 INFO [Log] Browser is closed 
+2022-02-10 21:31:52,649 INFO [Log] driver is initialized for Callouts Page 
+2022-02-10 21:32:14,735 INFO [Log] Browser is closed 
+2022-02-10 21:32:23,815 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 21:32:43,926 INFO [Log] Browser is not Closed 
+2022-02-10 21:32:44,545 INFO [Log] Browser is closed 
+2022-02-10 21:32:52,673 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 21:33:11,449 INFO [Log] Browser is not Closed 
+2022-02-10 21:33:11,911 INFO [Log] Browser is closed 
+2022-02-10 21:33:19,436 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 21:33:37,329 INFO [Log] Browser is not Closed 
+2022-02-10 21:33:37,882 INFO [Log] Browser is closed 
+2022-02-10 23:57:17,530 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 23:57:43,537 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-10 23:58:09,500 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-11 00:03:01,026 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-11 00:03:27,041 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-11 00:03:54,093 INFO [Log] driver is initialized for Resource Flows Page 

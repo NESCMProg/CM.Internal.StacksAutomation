@@ -1,0 +1,50 @@
+2022-02-12 22:02:56,807 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-12 22:03:17,562 INFO [Log] Successfully created a Resource Flow with title name: Status message
+ResourceFlow Resource Title-31 has been created. 
+2022-02-12 22:03:17,563 INFO [Log] title1 from Excel: Resource Title-31 
+2022-02-12 22:03:17,563 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-3 
+2022-02-12 22:03:17,563 INFO [Log] UPC value from Excel: 3.60029145E8 
+2022-02-12 22:03:17,564 INFO [Log] subTitle value from Excel: Resource SubTitle-31 
+2022-02-12 22:03:17,564 INFO [Log] author value from Excel: workflow in resource flow for Resource Title-31 
+2022-02-12 22:03:17,564 INFO [Log] ResourceFlow value from Excel: revision log message for Resource Title-31 
+2022-02-12 22:03:17,565 INFO [Log] Resource Flow Stage PASS 
+2022-02-12 22:03:17,571 INFO [Log] Browser is not Closed 
+2022-02-12 22:03:19,426 INFO [Log] Browser is closed 
+2022-02-14 09:20:48,289 INFO [Log] Alert message is closed 
+2022-02-14 09:20:48,305 INFO [Log] username from excel: NESadmin 
+2022-02-14 09:20:48,305 INFO [Log] password from excel: NES2021! 
+2022-02-14 09:21:16,472 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-14 09:21:23,387 INFO [Log] Alert message is closed 
+2022-02-14 09:21:23,388 INFO [Log] username from Excel: NESadmin 
+2022-02-14 09:21:23,388 INFO [Log] password from Excel: NES2021! 
+2022-02-14 09:21:35,254 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-14 09:21:53,703 ERROR[Log] Username or Password is incorrect, please try again. 
+2022-02-14 09:21:53,703 INFO [Log] Alert message is closed 
+2022-02-14 09:21:53,704 INFO [Log] username from Excel: NESAdmin 
+2022-02-14 09:21:53,704 INFO [Log] password from Excel: NESNES 
+2022-02-14 09:22:05,016 INFO [Log] driver is initialized for Callouts Page 
+2022-02-14 09:22:09,027 INFO [Log] Alert message is closed 
+2022-02-14 09:22:09,028 INFO [Log] username from excel: NESadmin 
+2022-02-14 09:22:09,028 INFO [Log] password from excel: NES2021! 
+2022-02-14 09:22:27,621 INFO [Log] Browser is closed 
+2022-02-14 09:22:37,537 INFO [Log] driver is initialized for Callouts Page 
+2022-02-14 09:22:42,848 INFO [Log] Alert message is closed 
+2022-02-14 09:22:42,849 INFO [Log] username from excel: NESadmin 
+2022-02-14 09:22:42,849 INFO [Log] password from excel: NES2021! 
+2022-02-14 09:23:01,394 INFO [Log] Browser is closed 
+2022-02-14 09:23:11,071 INFO [Log] driver is initialized for Callouts Page 
+2022-02-14 09:23:14,981 INFO [Log] Alert message is closed 
+2022-02-14 09:23:14,982 INFO [Log] username from excel: NESadmin 
+2022-02-14 09:23:14,982 INFO [Log] password from excel: NES2021! 
+2022-02-14 09:23:34,326 INFO [Log] Browser is closed 
+2022-02-14 09:23:43,061 INFO [Log] driver is initialized for Callouts Page 
+2022-02-14 09:23:47,652 INFO [Log] Alert message is closed 
+2022-02-14 09:23:47,652 INFO [Log] username from excel: NESadmin 
+2022-02-14 09:23:47,652 INFO [Log] password from excel: NES2021! 
+2022-02-14 09:24:05,971 INFO [Log] Browser is closed 
+2022-02-14 09:24:16,475 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-14 09:24:20,445 INFO [Log] Alert message is closed 
+2022-02-14 09:24:20,445 INFO [Log] username from excel: NESadmin 
+2022-02-14 09:24:20,445 INFO [Log] password from excel: NES2021! 
+2022-02-14 09:24:39,579 ERROR[Log] Browser closed 
+2022-02-14 09:24:40,062 INFO [Log] Browser is closed 
