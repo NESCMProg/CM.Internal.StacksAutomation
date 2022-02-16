@@ -41,18 +41,20 @@ public class DashboardPageTest extends base{
 		
 	}
 	
-	/*@Test(priority=2)
+	@Test(priority=1)
 	public void verifyDashboardTitleTest() {
 		String title2 = dashboardpage.verifyDashboardPageTitle();
-		Assert.assertEquals(title2, "Dashboard | Research ","Dashboard Title Not Matched");
-	}*/
+		Assert.assertEquals(title2, "Dashboard | Research","Dashboard Title Not Matched");
+		Log.info("Verified the Dashboard Title name which is : "+title2);
+		System.out.println(title2);
+	}
 	
-	@Test(priority=1)
+	/*@Test(priority=1)
 	public void calloutsTiletest() {
 		System.out.println("dashboard page success");
 		covp = dashboardpage.clickOnCalloutsLink();
 		
-	}
+	}*/
 	
 	@AfterMethod
 	public void teardown() {

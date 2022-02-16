@@ -59,7 +59,7 @@ try {
 }
 	catch(Exception e){
 		String alerexptmsg = alertException.getText();
-		Log.error(alerexptmsg);
+		Log.info(alerexptmsg);
 	}
 	Log.info("Alert message is closed");
 	return new DashboardPage();

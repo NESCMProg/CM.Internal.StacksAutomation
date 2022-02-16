@@ -56,8 +56,14 @@ public class resourceViewPage extends base {
 		author.sendKeys(author1);
 		rfWorkFlowcmt.sendKeys(wfcmts);
 		resourceflowrlm.sendKeys(rlm);
-		Thread.sleep(2000);
-		submitBtn.click();
+		try {
+			submitBtn.click();
+			Log.info("clicked on SAVE button after providing details");
+		}
+		catch(Exception e) {
+			//Log.error("Unable to find SAVE button after providing details");
+		}
+		
 		System.out.println("Resource Flow is saved");
 		Thread.sleep(1000);
 		String resourceFlowTitle = grabresourceflowTitle.getText();

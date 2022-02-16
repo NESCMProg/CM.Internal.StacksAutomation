@@ -39,9 +39,10 @@ public class CreateResourceFlowTestPage extends base {
 		 dashboardpage =  loginpatron.login(username1,password1);
 		 Log.info("username from excel: "+ username1);
 		 Log.info("password from excel: "+ password1);
+		 rfvp = new resourceViewPage();
 		 rfvp = dashboardpage.clickOnResourceFlowLink();
 		 driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-		 rfvp = new resourceViewPage();
+		 
 		
 	}
 	@DataProvider
@@ -89,16 +90,20 @@ public class CreateResourceFlowTestPage extends base {
 		Log.info("author value from Excel: "+resflow);
 		Log.info("ResourceFlow value from Excel: "+rlm);
 		Log.info("Resource Flow Stage PASS");
-		Log.info("Test Scenario ID TS_RF_01 is Executed Successfully");
+		Log.info("Test Scenario Id: TS_RF_01 is Executed Successfully");
 		System.out.println(resflow);
 		System.out.println(title1);
 	}
 	
 	@AfterMethod
 	public void teardown() {
-		Log.error("Browser closed");
 		driver.quit();
-		Log.info("Browser is closed");
+		try {
+			Log.info("Browser is closed");
+		}
+		catch(Exception e) {
+			Log.error(e.getMessage());
+		}
 	}
 	
 	

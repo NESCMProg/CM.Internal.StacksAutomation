@@ -41,8 +41,9 @@ public  class CreateCalloutTestPage extends base {
 	 Log.info("username from excel: "+ username1);
 	Log.info("password from excel: "+ password1);
 		 driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-		 covp = dashboardpage.clickOnCalloutsLink();
 		 covp = new calloutViewPage();
+		 covp = dashboardpage.clickOnCalloutsLink();
+		
 	}
 	
 	@DataProvider
@@ -52,13 +53,10 @@ public  class CreateCalloutTestPage extends base {
 		Object data[][]=null;
 		try {
 			data = TestUtil.getTestData("login");
-		} catch (InvalidFormatException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} 
 		
 		return data;
 	}
@@ -94,17 +92,19 @@ public  class CreateCalloutTestPage extends base {
 		Log.info("title1 from Excel:"+title1);
 		Log.info("subtitle1 from Excel:"+subtitle1);
 		Log.info("description from Excel:"+description);
-		Log.error("title1 from Excel is not driven");
-		Log.error("subtitle1 from Excel is not driven");
-		Log.error("description from Excel is not driven");
-		Log.info("Test Scenario ID TS_CO_01 is Executed Successfully");
+		Log.info("Condition in Test Scenario Id: TS_CO_01 is Executed Successfully");
 		
 	}
 
 	@AfterMethod
 	public void teardown() {
 		driver.quit();
-		Log.info("Browser is closed");
+		try {
+			Log.info("Browser is closed");
+		}
+		catch(Exception e) {
+			Log.error(e.getMessage());
+		}
 		
 	}
 	

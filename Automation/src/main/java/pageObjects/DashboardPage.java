@@ -21,6 +21,8 @@ public class DashboardPage extends base {
 	@FindBy(xpath= "//span[contains(text(),'Resource Flows')]")
 	WebElement resourceFlowLink;
 	
+	@FindBy(css="a.close-reveal-modal")
+	WebElement alertmessage;
 	
 	public DashboardPage() {
 		PageFactory.initElements(driver, this);
@@ -34,6 +36,7 @@ public class DashboardPage extends base {
 
 	public calloutViewPage clickOnCalloutsLink() {
 		System.out.println("This is dashboard page inside POM");
+		alertmessage.click();
 		calloutLink.click();
 		return new calloutViewPage();
 	}

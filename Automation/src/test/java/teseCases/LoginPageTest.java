@@ -41,21 +41,19 @@ DashboardPage dashboardpage;
 		Object data[][]=null;
 		try {
 			data = TestUtil.getTestData("login");
-		} catch (InvalidFormatException e) {
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} 
 		return data;
 	}
 	
-	/*@Test(priority=1)
+	@Test(priority=1)
 	public void validatepatronLoginPageTitleTest() {
 		String title = loginpatron.validatepatronLoginPageTitle();
 		Assert.assertEquals(title, "EBSCOhost");
-	}*/
+		Log.info("Title for Login Patron page is verified : "+title);
+	}
 	
 	@Test(dataProvider="getLoginData", priority=2)
 	public void loginTest(String username, String password)
@@ -65,13 +63,21 @@ DashboardPage dashboardpage;
 		
 		Log.info("username from Excel: "+username);
 		Log.info("password from Excel: "+password);
+		Log.info("Condition for Test Scenario Id: TS_LP_01 is PASS");
 	}
 	
 
-	/*@AfterMethod
+	@AfterMethod
 	public void teardown() {
 		driver.quit();
-	}*/
+		try {
+			Log.info("Browser is closed");
+		}
+		catch(Exception e) {
+			Log.error(e.getMessage());
+		}
+		
+	}
 	
 	
 }
