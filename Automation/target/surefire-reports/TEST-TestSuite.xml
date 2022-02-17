@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="166.602" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="160.81" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
@@ -60,11 +60,11 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="validatepatronLoginPageTitleTest" classname="teseCases.LoginPageTest" time="0.034"/>
-  <testcase name="loginTest" classname="teseCases.LoginPageTest" time="3.035"/>
-  <testcase name="loginTest" classname="teseCases.LoginPageTest" time="32.255"/>
-  <testcase name="newcalloutcreatetest" classname="teseCases.CreateCalloutTestPage" time="14.313"/>
-  <testcase name="newcalloutcreatetest" classname="teseCases.CreateCalloutTestPage" time="13.391"/>
-  <testcase name="newResourceFlowTest" classname="teseCases.CreateResourceFlowTestPage" time="14.611"/>
-  <testcase name="newResourceFlowTest" classname="teseCases.CreateResourceFlowTestPage" time="14.857"/>
+  <testcase name="validatepatronLoginPageTitleTest" classname="teseCases.LoginPageTest" time="0.009"/>
+  <testcase name="loginTest" classname="teseCases.LoginPageTest" time="3.317"/>
+  <testcase name="loginTest" classname="teseCases.LoginPageTest" time="32.145"/>
+  <testcase name="newcalloutcreatetest" classname="teseCases.CreateCalloutTestPage" time="14.404"/>
+  <testcase name="newcalloutcreatetest" classname="teseCases.CreateCalloutTestPage" time="13.896"/>
+  <testcase name="newResourceFlowTest" classname="teseCases.CreateResourceFlowTestPage" time="14.904"/>
+  <testcase name="newResourceFlowTest" classname="teseCases.CreateResourceFlowTestPage" time="14.828"/>
 </testsuite>
