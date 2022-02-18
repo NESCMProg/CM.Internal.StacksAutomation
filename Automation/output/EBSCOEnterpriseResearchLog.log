@@ -1,0 +1,68 @@
+2022-02-18 14:16:17,673 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-18 14:16:17,734 INFO [Log] Title for Login Patron page is verified : EBSCOhost 
+2022-02-18 14:16:18,116 INFO [Log] Browser is closed 
+2022-02-18 14:16:25,508 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-18 14:16:28,410 INFO [Log] Alert message is closed 
+2022-02-18 14:16:28,410 INFO [Log] username from Excel: NESadmin 
+2022-02-18 14:16:28,411 INFO [Log] password from Excel: NES2021! 
+2022-02-18 14:16:28,411 INFO [Log] Condition for Test Scenario Id: TS_LP_01 is PASS 
+2022-02-18 14:16:28,767 INFO [Log] Browser is closed 
+2022-02-18 14:16:35,926 INFO [Log] driver is initialized for Login Patron Page 
+2022-02-18 14:17:08,403 INFO [Log] Username or Password is incorrect, please try again. 
+2022-02-18 14:17:08,403 INFO [Log] Alert message is closed 
+2022-02-18 14:17:08,403 INFO [Log] username from Excel: NESAdmin 
+2022-02-18 14:17:08,404 INFO [Log] password from Excel: NESNES 
+2022-02-18 14:17:08,404 INFO [Log] Condition for Test Scenario Id: TS_LP_01 is PASS 
+2022-02-18 14:17:08,757 INFO [Log] Browser is closed 
+2022-02-18 14:17:15,690 INFO [Log] driver is initialized for Callouts Page 
+2022-02-18 14:17:18,370 INFO [Log] Alert message is closed 
+2022-02-18 14:17:18,371 INFO [Log] username from excel: NESadmin 
+2022-02-18 14:17:18,371 INFO [Log] password from excel: NES2021! 
+2022-02-18 14:17:31,265 INFO [Log] clicked on SAVE button after providing details 
+2022-02-18 14:17:33,306 INFO [Log] Successfully created a Callout with title name: Callouts Excel Callouts-1 has been created. 
+2022-02-18 14:17:33,306 INFO [Log] title1 from Excel:Excel Callouts-1 
+2022-02-18 14:17:33,306 INFO [Log] subtitle1 from Excel:Subtitle-1 
+2022-02-18 14:17:33,306 INFO [Log] description from Excel:callouts description-1 
+2022-02-18 14:17:33,306 INFO [Log] Condition in Test Scenario Id: TS_CO_01 is Executed Successfully 
+2022-02-18 14:17:33,747 INFO [Log] Browser is closed 
+2022-02-18 14:17:41,164 INFO [Log] driver is initialized for Callouts Page 
+2022-02-18 14:17:44,087 INFO [Log] Alert message is closed 
+2022-02-18 14:17:44,087 INFO [Log] username from excel: NESadmin 
+2022-02-18 14:17:44,087 INFO [Log] password from excel: NES2021! 
+2022-02-18 14:17:57,942 INFO [Log] clicked on SAVE button after providing details 
+2022-02-18 14:18:00,012 INFO [Log] Successfully created a Callout with title name: Callouts Excel Callouts-2 has been created. 
+2022-02-18 14:18:00,012 INFO [Log] title1 from Excel:Excel Callouts-2 
+2022-02-18 14:18:00,012 INFO [Log] subtitle1 from Excel:Subtitle-2 
+2022-02-18 14:18:00,012 INFO [Log] description from Excel:callouts description-2 
+2022-02-18 14:18:00,012 INFO [Log] Condition in Test Scenario Id: TS_CO_01 is Executed Successfully 
+2022-02-18 14:18:00,469 INFO [Log] Browser is closed 
+2022-02-18 14:18:07,969 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-18 14:18:10,943 INFO [Log] Alert message is closed 
+2022-02-18 14:18:10,944 INFO [Log] username from excel: NESadmin 
+2022-02-18 14:18:10,944 INFO [Log] password from excel: NES2021! 
+2022-02-18 14:18:25,317 INFO [Log] clicked on SAVE button after providing details 
+2022-02-18 14:18:26,377 INFO [Log] Successfully created a Resource Flow with title name: ResourceFlow Resource Title-31 has been created. 
+2022-02-18 14:18:26,377 INFO [Log] title1 from Excel: Resource Title-31 
+2022-02-18 14:18:26,377 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-3 
+2022-02-18 14:18:26,377 INFO [Log] UPC value from Excel: 3.60029145E8 
+2022-02-18 14:18:26,377 INFO [Log] subTitle value from Excel: Resource SubTitle-31 
+2022-02-18 14:18:26,377 INFO [Log] author value from Excel: workflow in resource flow for Resource Title-31 
+2022-02-18 14:18:26,377 INFO [Log] ResourceFlow value from Excel: revision log message for Resource Title-31 
+2022-02-18 14:18:26,377 INFO [Log] Resource Flow Stage PASS 
+2022-02-18 14:18:26,378 INFO [Log] Test Scenario Id: TS_RF_01 is Executed Successfully 
+2022-02-18 14:18:26,820 INFO [Log] Browser is closed 
+2022-02-18 14:18:34,497 INFO [Log] driver is initialized for Resource Flows Page 
+2022-02-18 14:18:37,353 INFO [Log] Alert message is closed 
+2022-02-18 14:18:37,354 INFO [Log] username from excel: NESadmin 
+2022-02-18 14:18:37,354 INFO [Log] password from excel: NES2021! 
+2022-02-18 14:18:51,180 INFO [Log] clicked on SAVE button after providing details 
+2022-02-18 14:18:52,218 INFO [Log] Successfully created a Resource Flow with title name: ResourceFlow Resource Title-32 has been created. 
+2022-02-18 14:18:52,218 INFO [Log] title1 from Excel: Resource Title-32 
+2022-02-18 14:18:52,218 INFO [Log] ISBN1 value from Excel: 978-3-16-148410-4 
+2022-02-18 14:18:52,218 INFO [Log] UPC value from Excel: 3.60029146E8 
+2022-02-18 14:18:52,219 INFO [Log] subTitle value from Excel: Resource SubTitle-32 
+2022-02-18 14:18:52,219 INFO [Log] author value from Excel: workflow in resource flow for Resource Title-32 
+2022-02-18 14:18:52,219 INFO [Log] ResourceFlow value from Excel: revision log message for Resource Title-32 
+2022-02-18 14:18:52,219 INFO [Log] Resource Flow Stage PASS 
+2022-02-18 14:18:52,219 INFO [Log] Test Scenario Id: TS_RF_01 is Executed Successfully 
+2022-02-18 14:18:52,655 INFO [Log] Browser is closed 
