@@ -51,17 +51,22 @@ public boolean validatesingleError() {
 }
 
 public DashboardPage login(String un, String pwd) {
-try {
+
 	username.sendKeys(un);
+	Log.info("User Name: " +un);
 	password.sendKeys(pwd);
+	Log.info("Password: "+pwd);
 	LoginBtn.click();
-	alertmessage.click();
-}
-	catch(Exception e){
+	try {
+		alertmessage.click();
+		Log.info("Application is accessed with correct credentials");
+		Log.info("Alert message is closed to navigate to Dashboard");
+	}
+	catch(Exception e1) {
 		String alerexptmsg = alertException.getText();
 		Log.info(alerexptmsg);
 	}
-	Log.info("Alert message is closed");
+
 	return new DashboardPage();
 }
 

@@ -1,6 +1,9 @@
 package teseCases;
 import utility.Log;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -17,6 +20,7 @@ import utility.TestUtil;
 
 public class LoginPageTest extends base {
 //public static Logger log =LogManager.getLogger(LoginPageTest.class.getName());
+	
 LoginPatron loginpatron	;
 DashboardPage dashboardpage;
 
@@ -28,7 +32,7 @@ DashboardPage dashboardpage;
 	public void setUp() throws IOException {
 		initialization();
 		System.out.println("driver is initialized for Login Patron Page");
-		Log.info("driver is initialized for Login Patron Page");
+		Log.info("Browser Opened the Application");
 		 loginpatron = new LoginPatron();
 		 dashboardpage = new DashboardPage();
 		 
@@ -48,22 +52,33 @@ DashboardPage dashboardpage;
 		return data;
 	}
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void validatepatronLoginPageTitleTest() {
+		Log.info("Test Case ID: TS_LP_01");
+		Log.info("Test Designed By: Charan");
+		Log.info("Test Priority: High");
+		Log.info("Test Executed By: "+machineName );
+		Log.info("Test Executed Date: " +currentDateTime);
+		Log.info("Test Description: Open the application in browser and verify the Title of the application");
 		String title = loginpatron.validatepatronLoginPageTitle();
 		Assert.assertEquals(title, "EBSCOhost");
 		Log.info("Title for Login Patron page is verified : "+title);
+		Log.info("Test Result: Pass");
 	}
 	
-	@Test(dataProvider="getLoginData", priority=2)
+	@Test(dataProvider="getLoginData", priority=1)
 	public void loginTest(String username, String password)
 	{
-		System.out.println();
+		Log.info("Test Case ID: TS_LP_01");
+		Log.info("Test Designed By: Charan");
+		Log.info("Test Priority: High");
+		Log.info("Test Executed By: "+machineName );
+		Log.info("Test Executed Date: " +currentDateTime);
+		Log.info("Test Description: Open application in browser. Then give right patron credentials and click on Login button. Patron "
+				+ "should be able to access the application. If wrong credentials are submitted patron should not get "
+				+ "access to open application.");
 		dashboardpage = loginpatron.login(username,password);
-		
-		Log.info("username from Excel: "+username);
-		Log.info("password from Excel: "+password);
-		Log.info("Condition for Test Scenario Id: TS_LP_01 is PASS");
+		Log.info("Test Result: Pass");
 	}
 	
 

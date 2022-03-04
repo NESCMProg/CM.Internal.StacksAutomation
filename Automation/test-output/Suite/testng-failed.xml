@@ -3,13 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="teseCases.CreateResourceFlowTestPage">
+      <class name="teseCases.DeleteCalloutTest">
         <methods>
           <include name="setUp"/>
-          <include name="newResourceFlowTest" invocation-numbers="0 1"/>
-          <include name="teardown"/>
+          <include name="deleteTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- teseCases.CreateResourceFlowTestPage -->
+      </class> <!-- teseCases.DeleteCalloutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

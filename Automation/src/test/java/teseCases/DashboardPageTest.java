@@ -18,7 +18,7 @@ public class DashboardPageTest extends base{
 	LoginPatron loginpatron	;
 	readCredentials rc = new readCredentials();	
 	DashboardPage dashboardpage;
-	calloutViewPage covp;
+	//calloutViewPage covp;
 	
 	public DashboardPageTest() {
 		super();
@@ -35,8 +35,8 @@ public class DashboardPageTest extends base{
 		 Log.info("username from excel: "+ username1);
 		 Log.info("password from excel: "+ password1);
 		//dashboardpage = loginpatron.login(prop.getProperty("username"), prop.getProperty("password"));
-		covp = new calloutViewPage();
-	covp =  dashboardpage.clickOnCalloutsLink();
+		//covp = new calloutViewPage();
+	//covp =  dashboardpage.clickOnCalloutsLink();
 		
 		
 	}
@@ -49,17 +49,17 @@ public class DashboardPageTest extends base{
 		System.out.println(title2);
 	}
 	
-	/*@Test(priority=1)
+	/*@Test(priority=2)
 	public void calloutsTiletest() {
 		System.out.println("dashboard page success");
 		covp = dashboardpage.clickOnCalloutsLink();
 		
 	}*/
 	
-	@AfterMethod
+	/*@AfterMethod
 	public void teardown() {
 		driver.quit();
-	}
+	}*/
 	
 	
 }

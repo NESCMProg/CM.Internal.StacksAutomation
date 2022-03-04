@@ -6,7 +6,7 @@
 <layout
 class="org.apache.log4j.PatternLayout">
 <param name="ConversionPattern"
-value="%d %-5p[%c{1}] %m %n"/>
+value="%m%n"/>
 </layout>
 </appender>
 <root>
@@ -14,5 +14,3 @@ value="%d %-5p[%c{1}] %m %n"/>
 <appender-ref ref="fileAppender"/>
 </root>
 </log4j:configuration>	
-
-	

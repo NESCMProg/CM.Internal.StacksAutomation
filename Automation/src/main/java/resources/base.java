@@ -3,8 +3,10 @@ package resources;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.Date;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -16,9 +18,15 @@ public class base {
 
 	public static WebDriver driver;
 	public static Properties prop;
-
+	public static String machineName;
+	public static String currentDateTime;
+	
 	public WebDriver initialization() throws IOException {
 		DOMConfigurator.configure("log4j.xml");
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date date1 = new Date();
+		currentDateTime = formatter.format(date1);
+		 machineName = System.getProperty("user.name");
 		 prop = new Properties();
 		FileInputStream fis = new FileInputStream(
 				"src\\main\\java\\library\\config");
