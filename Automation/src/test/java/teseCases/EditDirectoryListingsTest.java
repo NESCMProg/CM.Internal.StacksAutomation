@@ -37,7 +37,7 @@ public class EditDirectoryListingsTest extends base {
 	@BeforeMethod
 	public void setUp() throws IOException, InterruptedException {
 		initialization();
-		Log.info("driver is initialized for News Article Page");
+		Log.info("Directory List edit functionality");
 		 loginpatron = new LoginPatron();
 		 String username1 = rc.ReadCellData(1,0);
 		String password1 = rc.ReadCellData(1,1);
