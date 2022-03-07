@@ -77,7 +77,7 @@ public class CustomBlockViewPage extends base {
 		try {
 			String CustomTitle = grabCustomTitle.getText();
 			Log.info("Status Message: "+CustomTitle);
-			Log.info("Successfully created a Resource Flow with title name: " +title1);
+			Log.info("Successfully created a Custom Block with title name: " +title1);
 			Thread.sleep(1000);
 		}
 		catch(Exception e2) {
