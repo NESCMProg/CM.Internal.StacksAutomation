@@ -82,13 +82,13 @@ public class directoryListingsViewPage extends base {
 			//Log.error("Unable to find SAVE button after providing details");
 		}
 		
-		System.out.println("Resource Flow is saved");
+		System.out.println("Directory List is saved");
 		Thread.sleep(1000);
 		try {
 			String directoryListTitle = grabDirectoryTitle.getText();
 			System.out.println(directoryListTitle);
 			Log.info("Status Message: "+directoryListTitle);
-			Log.info("Successfully created a Resource Flow with title name: " +dirName+" "+secondtName);
+			Log.info("Successfully created a Directory List with title name: " +dirName+" "+secondtName);
 			Thread.sleep(2000);
 		}
 		catch(Exception e2) {
