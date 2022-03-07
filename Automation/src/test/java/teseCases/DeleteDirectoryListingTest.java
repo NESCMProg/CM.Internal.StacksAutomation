@@ -87,7 +87,7 @@ public class DeleteDirectoryListingTest extends base {
 		try {
 			dlvp.deleteDirectoryListBtn(D_directoryName, D_lastName, D_jobTitle, D_Location, D_twitter, D_twitterURL, deletedDirectory);
 			Log.info(D_directoryName+" "+D_lastName+ " is created first");
-			Log.info(D_directoryName+" "+D_lastName+ " is deleted successfully first");
+			Log.info(D_directoryName+" "+D_lastName+ " is deleted successfully");
 		}
 		catch(Exception e1) {
 			
