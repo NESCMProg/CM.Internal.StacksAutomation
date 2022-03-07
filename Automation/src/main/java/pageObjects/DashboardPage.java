@@ -51,7 +51,13 @@ public class DashboardPage extends base {
 	public calloutViewPage clickOnCalloutsLink() {
 		System.out.println("This is dashboard page inside POM");
 		alertmessage.click();
-		calloutLink.click();
+		try{
+			calloutLink.click();
+		}
+		catch(Exception e){
+			
+		}
+		
 		return new calloutViewPage();
 	}
 	
